@@ -21,7 +21,7 @@ int main() {
     }
 
     // Set the desired number of threads
-    int num_threads = 4; // Change this value as needed
+    int num_threads = 16; // Change this value as needed
     omp_set_num_threads(num_threads);
 
     // Measure execution time
